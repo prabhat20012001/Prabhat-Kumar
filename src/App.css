@@ -150,3 +150,32 @@ box-shadow: var(--box-shadow);
 .skills .items .item img{
   width:70px;
 }
+
+
+/* social icons */
+
+.contact-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-icon .items{
+  background-color: black;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border:1px solid yellow;
+}
+
+.contact-icon .items:hover{
+  background-color: var(--bg-color);
+  box-shadow: var(--box-shadow);
+}
+.contact-icon .items .icons{
+  font-size: 2rem;
+}
