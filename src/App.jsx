@@ -8,6 +8,7 @@ import Project from './components/Project'
 import Contact from "./components/Contact"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import Whatsapp from './components/Whatsapp'
 function App() {
 
 useEffect(()=>{
@@ -24,6 +25,7 @@ return (
 <Skills/>
 <Project/>
 <Contact/>
+<Whatsapp/>
 
     </>
   )
