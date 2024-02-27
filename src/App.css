@@ -98,7 +98,55 @@ box-shadow:10px 10px 100px 50px blue;
 
   100%{
     border-color: rgb(50,55,205);
-    transform:translate(0 ,-10px);
+    transform:translate(0 ,-0px);
   box-shadow:10px 10px 100px 50px rgb(50,55,205);
   }
+}
+
+
+/* EXPERIENCE  */
+
+.ex{
+  width:900px;
+  /* margin-top: 40px; */
+}
+.ex-items {
+display: flex;
+align-items: space-between;
+background-color: var(--bg-color);
+margin: 20px;
+padding: 20px;
+width:800px;
+border-radius: 10px;
+border: 1px solid yellow;
+box-shadow: var(--box-shadow);
+}
+
+
+/* skills */
+
+.skills{
+  width:900px;
+}
+
+.skills .items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 800px; */
+  margin: auto;
+}
+.skills .items .item {
+  width:calc(33.33%);
+  background-color: black;
+  margin: 20px;
+text-align: center;
+padding: 20px;
+border-radius: 10px;
+border:1px solid yellow;
+box-shadow: var(--box-shadow);
+}
+.skills .items .item img{
+  width:70px;
 }
