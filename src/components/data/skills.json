@@ -24,7 +24,7 @@
       "imageSrc":"skills/firebase.png"
     },
     {
-      "title": "GraphQL",
+      "title": "Express",
       "imageSrc": "skills/graphql.png"
     },
     {
@@ -33,6 +33,10 @@
     },
     {
       "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    },
+    {
+      "title": "Tailwind CSS",
       "imageSrc": "skills/figma.png"
     }
   ]
